@@ -1,7 +1,7 @@
-var mocha = require("mocha");
-var chai = require("chai");
-var formatter = require("./formatter");
-var expect = chai.expect;
+const mocha = require("mocha");
+const chai = require("chai");
+const formatter = require("./formatter");
+const expect = chai.expect;
 
 // "" -> "0"
 // "12" -> "12.00"
